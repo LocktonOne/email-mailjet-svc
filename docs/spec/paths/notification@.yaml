@@ -1,0 +1,11 @@
+post:
+  tags:
+    - Notification
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: '#/components/schemas/CreateNotification'
+  responses:
+    '204':
+      description: Success

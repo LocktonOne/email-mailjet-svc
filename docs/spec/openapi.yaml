@@ -1,0 +1,10 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: email-mailjet-svc
+  description: >-
+    All endpoints marked as `WIP` (work in progress) are currently unstable and
+    may work incorrect or even not work so use them on your peril 
+servers:
+  - url: 'https://api.email-mailjet-svc.tokend.io'
+    description: License TokenD Environment

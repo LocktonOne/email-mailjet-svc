@@ -1,0 +1,9 @@
+
+apiTitle: email-mailjet-svc
+splitSpec: true
+codeSamples: false
+swaggerUI: true
+travis: true
+repo: tokend/notifications/email-mailjet-svc
+oasVersion: 1.0.0
+

@@ -1,0 +1,19 @@
+allOf:
+  - $ref: '#/components/schemas/MessageKey'
+  - type: object
+    required:
+      - attributes
+    properties:
+      attributes:
+        type: object
+        required:
+          - subject
+        properties:
+          subject:
+            type: string
+          text:
+            type: string
+          html:
+            type: string
+          from:
+            type: string

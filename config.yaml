@@ -1,0 +1,10 @@
+log:
+  disable_sentry: true
+
+listener:
+  addr: :8000
+
+mailjet:
+  public_api_key: ...
+  private_api_key: ...
+  from_email: ...
