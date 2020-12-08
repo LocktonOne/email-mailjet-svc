@@ -131,11 +131,8 @@ github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/magiconair/properties v1.8.1 h1:ZC2Vc7/ZFkGmsVC9KvOjumD+G5lXy2RtTKyzRKO2BQ4=
 github.com/magiconair/properties v1.8.1/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
-<<<<<<< HEAD
-=======
 github.com/mailjet/mailjet-apiv3-go v0.0.0-20201009050126-c24bc15a9394 h1:+6kiV40vfmh17TDlZG15C2uGje1/XBGT32j6xKmUkqM=
 github.com/mailjet/mailjet-apiv3-go v0.0.0-20201009050126-c24bc15a9394/go.mod h1:ogN8Sxy3n5VKLhQxbtSBM3ICG/VgjXS/akQJIoDSrgA=
->>>>>>> Initial commit
 github.com/mattn/go-colorable v0.0.9/go.mod h1:9vuHe8Xs5qXnSaW/c/ABM9alt+Vo+STaOChaDxuIBZU=
 github.com/mattn/go-isatty v0.0.3/go.mod h1:M+lRXTBqGeGNdLjl/ufCoiOlB5xdOkqRJdNxMWT7Zi4=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
@@ -209,8 +206,8 @@ gitlab.com/distributed_lab/ape v1.5.0 h1:DdmnmqaJfn6Tqn4hkFa4ArbNBRTpSktyO4nZGTp
 gitlab.com/distributed_lab/ape v1.5.0/go.mod h1:MTCxXQHGrMJd6VB2NjJA5/C9djJoR0z+YyJ40I7Vj64=
 gitlab.com/distributed_lab/figure v2.1.0+incompatible h1:8kNtvWO91BSQ4OsqL2P3qNWSBnh/Q/TdWB8vHy8xvNI=
 gitlab.com/distributed_lab/figure v2.1.0+incompatible/go.mod h1:tk+aPBohT49MGPLy5+eVbE1HpD/CaC5drBHfVpRI8eE=
-gitlab.com/distributed_lab/json-api-connector v0.2.2 h1:O0etLy5faW4aYmnNnw1oqku//Of0dUIAXZSA7k3G9cs=
-gitlab.com/distributed_lab/json-api-connector v0.2.2/go.mod h1:PfWKMdxGaBCbO5TcWecu/ZFFJXuVuHo/Ur4go7CIPZ4=
+gitlab.com/distributed_lab/json-api-connector v0.2.3 h1:chxD6WAW5GxahgHxLZ0dKTFaKjp7sYW1dIuOiAh7SYA=
+gitlab.com/distributed_lab/json-api-connector v0.2.3/go.mod h1:PfWKMdxGaBCbO5TcWecu/ZFFJXuVuHo/Ur4go7CIPZ4=
 gitlab.com/distributed_lab/kit v1.8.1 h1:Mhbh+xX+jJWa+6rapM2zBnJYkrptHpN2lTXb9ydppJM=
 gitlab.com/distributed_lab/kit v1.8.1/go.mod h1:YII/HvTMx2JuniTW7Y0hciyPX/q9nBJiI0viVVrxiQc=
 gitlab.com/distributed_lab/logan v0.0.91 h1:hTStx0i1B/qYk/IAWyJRXoISO/DRAbYaG54HsMyliiQ=

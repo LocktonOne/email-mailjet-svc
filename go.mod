@@ -21,7 +21,7 @@ require (
 	github.com/spf13/viper v1.7.0 // indirect
 	gitlab.com/distributed_lab/ape v1.5.0
 	gitlab.com/distributed_lab/figure v2.1.0+incompatible
-	gitlab.com/distributed_lab/json-api-connector v0.2.2
+	gitlab.com/distributed_lab/json-api-connector v0.2.3
 	gitlab.com/distributed_lab/kit v1.8.1
 	gitlab.com/distributed_lab/logan v3.7.2+incompatible
 	gitlab.com/distributed_lab/lorem v0.2.0 // indirect

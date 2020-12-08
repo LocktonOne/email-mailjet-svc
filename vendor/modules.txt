@@ -31,10 +31,6 @@ github.com/go-chi/chi/middleware
 github.com/go-ozzo/ozzo-validation
 # github.com/gobuffalo/envy v1.9.0
 ## explicit
-<<<<<<< HEAD
-github.com/gobuffalo/envy
-=======
->>>>>>> Initial commit
 # github.com/google/jsonapi v0.0.0-20200226002910-c8283f632fb7
 ## explicit
 github.com/google/jsonapi
@@ -49,26 +45,15 @@ github.com/hashicorp/hcl/hcl/token
 github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
-<<<<<<< HEAD
-# github.com/joho/godotenv v1.3.0
-github.com/joho/godotenv
-=======
->>>>>>> Initial commit
 # github.com/konsorten/go-windows-terminal-sequences v1.0.3
 github.com/konsorten/go-windows-terminal-sequences
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
-<<<<<<< HEAD
-# github.com/mailgun/mailgun-go v2.0.0+incompatible
-## explicit
-github.com/mailgun/mailgun-go
-=======
 # github.com/mailjet/mailjet-apiv3-go v0.0.0-20201009050126-c24bc15a9394
 ## explicit
 github.com/mailjet/mailjet-apiv3-go
 github.com/mailjet/mailjet-apiv3-go/fixtures
 github.com/mailjet/mailjet-apiv3-go/resources
->>>>>>> Initial commit
 # github.com/mitchellh/mapstructure v1.1.2
 github.com/mitchellh/mapstructure
 # github.com/nullstyle/go-xdr v0.0.0-20180726165426-f4c839f75077
@@ -81,13 +66,6 @@ github.com/pelletier/go-toml
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
-<<<<<<< HEAD
-# github.com/rogpeppe/go-internal v1.3.2
-github.com/rogpeppe/go-internal/modfile
-github.com/rogpeppe/go-internal/module
-github.com/rogpeppe/go-internal/semver
-=======
->>>>>>> Initial commit
 # github.com/sirupsen/logrus v1.6.0
 ## explicit
 github.com/sirupsen/logrus
@@ -112,7 +90,7 @@ gitlab.com/distributed_lab/ape/problems
 # gitlab.com/distributed_lab/figure v2.1.0+incompatible
 ## explicit
 gitlab.com/distributed_lab/figure
-# gitlab.com/distributed_lab/json-api-connector v0.2.2
+# gitlab.com/distributed_lab/json-api-connector v0.2.3
 ## explicit
 gitlab.com/distributed_lab/json-api-connector
 gitlab.com/distributed_lab/json-api-connector/base

@@ -184,8 +184,13 @@ func (c *Connector) perform(request *http.Request) (statusCode int, response []b
 	switch resp.StatusCode {
 	case http.StatusOK, http.StatusCreated:
 		return statusCode, bodyBB, nil
-	case http.StatusNotFound, http.StatusNoContent, http.StatusAccepted:
+	case http.StatusNoContent, http.StatusAccepted:
 		return statusCode, nil, nil
+	case http.StatusNotFound:
+		return statusCode, nil, internalErrs.E("not found",
+			internalErrs.Status(resp.StatusCode),
+			internalErrs.Path(request.URL.String()),
+		)
 	case http.StatusTooManyRequests:
 		panic("not implemented")
 	case http.StatusBadRequest:

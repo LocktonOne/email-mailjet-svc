@@ -6,11 +6,7 @@ import (
 	"errors"
 	"reflect"
 
-<<<<<<< HEAD
-	"github.com/mailjet/mailjet-apiv3-go/v3/resources"
-=======
 	"github.com/mailjet/mailjet-apiv3-go/resources"
->>>>>>> Initial commit
 )
 
 // Fixtures definition

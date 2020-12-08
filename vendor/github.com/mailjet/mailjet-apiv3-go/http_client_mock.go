@@ -4,11 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-<<<<<<< HEAD
-	"github.com/mailjet/mailjet-apiv3-go/v3/fixtures"
-=======
 	"github.com/mailjet/mailjet-apiv3-go/fixtures"
->>>>>>> Initial commit
 )
 
 // HTTPClientMock definition
@@ -27,10 +23,7 @@ type HTTPClientMock struct {
 
 // NewhttpClientMock instanciate new httpClientMock
 func NewhttpClientMock(valid bool) *HTTPClientMock {
-<<<<<<< HEAD
-=======
 
->>>>>>> Initial commit
 	return &HTTPClientMock{
 		apiKeyPublic:  "apiKeyPublic",
 		apiKeyPrivate: "apiKeyPrivate",
