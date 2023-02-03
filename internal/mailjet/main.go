@@ -53,12 +53,12 @@ func (c *connector) buildMailjetMessage(message Message) *mailjet.MessagesV31 {
 	}
 
 	messageInfo := []mailjet.InfoMessagesV31{
-		mailjet.InfoMessagesV31{
+		{
 			From: &mailjet.RecipientV31{
 				Email: from,
 			},
 			To: &mailjet.RecipientsV31{
-				mailjet.RecipientV31 {
+				mailjet.RecipientV31{
 					Email: message.Destination,
 				},
 			},
@@ -72,8 +72,7 @@ func (c *connector) buildMailjetMessage(message Message) *mailjet.MessagesV31 {
 		messageInfo[0].HTMLPart = *message.Html
 	}
 
-	messages := mailjet.MessagesV31{Info: messageInfo }
+	messages := mailjet.MessagesV31{Info: messageInfo}
 
 	return &messages
 }
-
